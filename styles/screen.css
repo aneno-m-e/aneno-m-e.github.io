@@ -1,20 +1,29 @@
 * {
     font-family: sans-serif;
-    color: color: #00344d;
+    color: #00344d;
 }
 
 /* Header */
 
 header {
-    background-color: #ccefff; 
+    border: 0;
+    padding: 2em;
+    background-color: #ccefff;
+    height: 230px;
+}
+
+header a:link a:hover a:visited a:active {
+    text-decoration: none; 
 }
 
 h1 {
     text-align: center;
+    font-weight: bold;
 }
 
 h2 {
     text-align: right;
+    font-weight: bold;
 }
 
 /* Menu */
