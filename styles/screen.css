@@ -3,6 +3,10 @@
     color: #00344d;
 }
 
+a {
+   text-decoration: none; 
+}
+
 /* Header */
 
 header {
@@ -38,7 +42,7 @@ nav {
 
 /* Content */
 
-a {
+main a {
     text-decoration: underline;
 }
 
