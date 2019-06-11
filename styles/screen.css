@@ -36,9 +36,20 @@ nav {
     align-content: center;
 }
 
-
-/* Ariana thread */
-
 /* Content */
+
+a {
+    text-decoration: underline;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #80ccff;    
+}
+
+.block .inline {
+    background-color: #00344d;
+    color: bisque;
+}
 
 /* Footer */
