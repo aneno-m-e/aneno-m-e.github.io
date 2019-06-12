@@ -51,7 +51,7 @@ main a {
     background-color: #80ccff;    
 }
 
-.block .inline {
+.block, .inline {
     background-color: #00344d;
     color: bisque;
 }

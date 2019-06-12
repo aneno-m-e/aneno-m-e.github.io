@@ -19,13 +19,19 @@
     <h2 id="subheader">By Noemie A.</h2>
   </header>
   <!--Menu-->
-  <!--add dropdown-->
   <nav>
-    <a href="/about.html">About</a>
-    <a href="/tech.html">Tech</a>
-    <a href="/core.html">Core</a>
-    <a href="/projects.hmtl">Projects</a>
-  </nav>
+      <ul>
+          <li class="dropdown">
+              <a class="dropbtn" href="/about.html">About</a>
+              <div class="dropdown-content">
+                  <a href="/wandering_anemone.html">Wandering Anemone</a>
+              </div>
+          </li>
+          <li><a href="/blog/blog.html">Blog</a></li>
+          <li><a href="/projects.hmtl">Projects</a></li>
+      </ul>
+    </nav>
+    <!--Content-->
   <main>
     <p>Every HTML element has a default display value, the most important values being <span class=code>inline</span> and <span class=code>block</span>.</p>
     <p class="block">Block elements, like the paragraph you are currently reading, always start on a new line and spread left and right as far as they can, as demonstrated by the colored background.</p>

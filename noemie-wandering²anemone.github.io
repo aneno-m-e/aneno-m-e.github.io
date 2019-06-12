@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="keywords" content="DevAcademy, EDA, HTML, CSS, Javascript, Web developer">
     <meta name="description" content="Follow the journey of a wandering sea anemone on her way to becoming a web developer">
-    <link media="screen" rel="stylesheet" href="styles/screen.css">
-    <link media="print" rel="stylesheet" href="styles/print.css">
+    <link media="screen" rel="stylesheet" href="css/screen.css">
+    <link media="print" rel="stylesheet" href="css/print.css">
     <!--add favicon-->
   </head>
   <body>
@@ -20,27 +20,23 @@
   <!--Menu-->
   <!--add dropdown-->
   <nav>
-    <a href="/about.html">About</a>
-    <a href="/tech.html">Tech</a>
-    <a href="/core.html">Core</a>
-    <a href="/projects.hmtl">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Tech</a>
+    <a href="#">Core</a>
+    <a href="#">Projects</a>
   </nav>
   <main>
     <!--Add Ariana thread-->
-    <ul>
-      <li><a href="#">Sprint 1</a></li>
-      <li><a href="#">Sprint 2</a></li>
-      <li><a href="#">Sprint 3</a></li>
-      <li><a href="#">Sprint 4</a></li>
-      <li><a href="#">Sprint 5</a></li>
-    </ul>
-   
-    
+
+    <h1>Kia ora Taiao! (Hello World!)</h1> 
+    <p> This is the beginning of my website home page.</p>
+    <p> It will eventually contain a list of links to all my blogs. </p>
+  
   </main>
   <footer>
       <nav>
-        <a href="contact.html">Contact</a>
-        <a href="sitemap.html">Site Map</a>
+          <a href="#">Contact</a>
+          <a href="#">Site Map</a>
         </nav>      
   </footer>
   </body>
