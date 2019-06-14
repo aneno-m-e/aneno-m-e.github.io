@@ -115,7 +115,7 @@ main a {
 
 .code {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #80ccff;    
+    color: #666666;    
 }
 
 .block, .inline {
@@ -123,5 +123,6 @@ main a {
     color: bisque;
 }
 
+#
 /* Footer */
 
