@@ -1,81 +1,77 @@
 * {
-    font-family: sans-serif;
-    
+	text-decoration: none;
+	list-style-type: none;
+}
+
+html {
+	font-size: 100%;
 }
 
 body {
-  margin: 0;
   color: #552900;
   background-color: #6A959B;
+  font: "Trebuchet MS", helvetica, sans-serif ;
+  margin: 0;
 }
 
 a {
-   text-decoration: none;
    color: #552900;
 }
 
 /* Header */
 
 header {
-    margin: 0;
-    padding: 2em;
-    color: #437983;
-    background-color: #804915; 
-    height: 230px;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    font-family: 'Architects Daughter', cursive;
 }
 
-header a, header a:link, header a:hover, header a:visited, header a:active {
-    text-decoration: none;
-    color: #6A959B;
-}
-
-h1 {
-    text-align: center;
-    font-weight: bolder;
-}
-
-header h2 {
-    text-align: right;
-    font-weight: bold;
-}
-/* Need to be just above menu */
-
-/* Menu */
-
-nav, nav a {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+header, nav, nav a {
     color: #6A959D;
     background-color: #012C34;
 }
 
+header a, header a:link, header a:hover, header a:visited, header a:active {
+    text-decoration: none;
+    color: #6A959D;
+}
+
+#homebtn {
+  flex: 40%;
+  padding-left: 150px;
+  background: url("../images/homebtn.JPG") no-repeat left center ;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+/* Menu */
+
+nav, nav a {
+    flex: 60%;
+    margin: 0;
+    text-align: center; 
+    font-size: 1.3em;
+}
+
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: auto;
     overflow: hidden;
     text-align: center;
-    display: inline-block;
-
   }
   
 nav li {
     float: left;
     margin: 0;
-    padding: 0;
+    padding: 0 2em;
   }
 
-nav a {
-    
-}
-  
 nav li a, .dropbtn {
     display: inline-block;
-    /*color: #DEDCE9;*/
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-weight: bold;
   }
   
 nav li a:hover, .dropdown:hover .dropbtn {
@@ -132,8 +128,13 @@ main a {
     color: bisque;
 }
 
-#
 /* Footer */
+
+footer a {
+  display: inline-block;
+  padding: 0 1em;
+  font-family: 'Architects Daughter', cursive;
+}
 
 /* CSS - Cascading Style Sheet */
 /* Palette color codes */
