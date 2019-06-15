@@ -8,42 +8,66 @@ html {
 }
 
 body {
-  color: #552900;
-  background-color: #6A959B;
-  font: "Trebuchet MS", helvetica, sans-serif ;
+  color: #ccefff;
+  background-color: #012C34;
+  font-family: 'Architects Daughter', cursive;
   margin: 0;
 }
 
 a {
-   color: #552900;
+  color: #6A959D;
+}
+
+/* Home */
+
+#home {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #ccefff;
+}
+
+#hometext {
+  margin: 3em 1em 1em;
+  padding: 1em;
+  font-size: 225%;
+  flex: 50%;
+}
+
+#homeimg {
+  flex: 50%;
+  border-radius: 50%;
+  width: 500px;
+  padding: 3em;
+}
+
+#home a {
+  text-decoration: underline;
+  padding: 0 0.2em;
 }
 
 /* Header */
 
 header {
-    padding: auto;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 80px;
     font-family: 'Architects Daughter', cursive;
 }
 
-header, nav, nav a {
-    color: #6A959D;
-    background-color: #012C34;
+
+#homebtn {
+  flex: 40%;
+  padding-left: 150px;
+  padding-top: 0.25em; /* Temporary fix for h2. Need to find how to remove space between h1 and h2*/
+  background: url("../images/homebtn.JPG") no-repeat left center ;
+  margin: 0;
+  font-size: 0.8em;
 }
 
 header a, header a:link, header a:hover, header a:visited, header a:active {
     text-decoration: none;
     color: #6A959D;
-}
-
-#homebtn {
-  flex: 40%;
-  padding-left: 150px;
-  background: url("../images/homebtn.JPG") no-repeat left center ;
-  margin: 0;
-  font-size: 0.8em;
 }
 
 /* Menu */
@@ -108,15 +132,97 @@ nav .dropdown:hover .dropdown-content {
 
 /* Content */
 
+#content {
+  color: #552900;
+  background-color: #ccefff;
+  font-family: "Trebuchet MS", helvetica, sans-serif ;
+}
+
 main {
-    width: 1000px;
+    width: 75%;
     margin: 0 auto;
+    padding: 2em;
 }
 
 main a {
     text-decoration: underline;
+    color: #552900;
 }
 
+/* Blog */
+
+#blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em;
+}
+
+#tech, #core {
+  flex: 50%;
+  margin: 1em 4em;
+  padding: 1em;
+  border-radius: 1.5em;
+  font-size: 120%;
+}
+
+#tech h3, #core h3 {
+    border: solid;
+    border-radius: 1.5em;
+    text-align: center;
+    margin: 0 8em;
+    padding: 0.5em 0;
+    position: relative;
+    top: -2em;
+}
+
+#tech li, #core li {  
+  margin: 0.8em 0;
+  text-align: center;
+}
+
+#techimg, #coreimg {
+  border-radius: 50%;
+}
+
+#tech {
+  border: solid #012C34;
+  background-color: #6A959D;
+  color: #012C34;
+}
+
+#tech h3 {
+  background-color: #6A959D;
+}
+
+
+#tech a {
+  color: #012C34;
+}
+
+#tech img {
+  position: relative;
+  left: -2.5em;
+  bottom: -2em;
+  border: solid #012C34;
+}
+
+#core {
+  border: solid #552900;
+  background-color: #D49E6A;
+}
+
+#core h3 {
+  background-color: #D49E6A;
+}
+
+#core img {
+  position: relative;
+  right: -21.5em;
+  bottom: -2em;
+  border: solid #552900;
+  transform: scaleX(-1);
+}
 
 .code {
     font-family: 'Courier New', Courier, monospace;
@@ -133,7 +239,6 @@ main a {
 footer a {
   display: inline-block;
   padding: 0 1em;
-  font-family: 'Architects Daughter', cursive;
 }
 
 /* CSS - Cascading Style Sheet */
