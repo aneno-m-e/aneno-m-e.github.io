@@ -170,7 +170,7 @@ main a {
 
 #tech, #core {
   flex: 50%;
-  margin: 1em 4em;
+  margin: 1em 3em;
   padding: 1em;
   border-radius: 1.5em;
   font-size: 120%;
@@ -180,7 +180,7 @@ main a {
     border: solid;
     border-radius: 1.5em;
     text-align: center;
-    margin: 0 8em;
+    margin: 0 5em;
     padding: 0.5em 0;
     position: relative;
     top: -2em;
@@ -228,7 +228,7 @@ main a {
 
 #core img {
   position: relative;
-  right: -21.5em;
+  right: -17.5em;
   bottom: -2em;
   border: solid #552900;
   transform: scaleX(-1);
