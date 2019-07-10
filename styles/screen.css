@@ -145,7 +145,14 @@ nav .dropdown:hover .dropdown-content {
 #content {
   color: #552900;
   background-color: #e9dbc8;
+}
+
+#content p {
   font-family: "Trebuchet MS", helvetica, sans-serif ;
+}
+
+#content li {
+  font-weight: bold;
 }
 
 main {
